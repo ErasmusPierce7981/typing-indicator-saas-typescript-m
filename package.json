@@ -1,0 +1,17 @@
+{
+  "name": "typing-indicator-saas-typescript-m",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types src/thread_events.test.ts",
+    "demo": "node --experimental-strip-types src/thread_events.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  }
+}
